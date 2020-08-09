@@ -13,6 +13,7 @@
     switch($controller) {
         case strtolower('station'): 
             require_once('stationcontroller.php'); 
+            seguridad 
             break;
         default:
             echo json_encode(array(
